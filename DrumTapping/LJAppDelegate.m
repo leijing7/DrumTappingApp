@@ -7,12 +7,17 @@
 //
 
 #import "LJAppDelegate.h"
+#import "DDLog.h"
+#import "DDTTYLogger.h"
+#import "DDFileLogger.h"
 
 @implementation LJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    
     return YES;
 }
 							

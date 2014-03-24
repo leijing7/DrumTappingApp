@@ -10,4 +10,8 @@
 
 @interface LJViewController : UIViewController
 
+- (IBAction)nextButtonClicked:(id)sender;
+
+@property IBOutlet UIButton *nextButton;
+
 @end

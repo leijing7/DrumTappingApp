@@ -16,3 +16,11 @@ int main(int argc, char * argv[])
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([LJAppDelegate class]));
     }
 }
+
+
+/* KNOW ISSUE
+ 1. When open this app, play the first sound, the sound volume is kind of lower than the same sound later.
+    But this problem is only existing within the speaker. It is always good - the same volume if using earphone.
+    To solve this, can let user play sound and change the volume so the first time sound will not be used.
+
+*/

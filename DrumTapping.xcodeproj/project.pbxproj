@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5839513218C69F4E00B5F477 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839512D18C69F4D00B5F477 /* DDFileLogger.m */; };
+		5839513318C69F4E00B5F477 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839512F18C69F4D00B5F477 /* DDLog.m */; };
+		5839513418C69F4E00B5F477 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839513118C69F4D00B5F477 /* DDTTYLogger.m */; };
 		5839DFF918BAF33500F1BD13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5839DFF818BAF33500F1BD13 /* Foundation.framework */; };
 		5839DFFB18BAF33500F1BD13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5839DFFA18BAF33500F1BD13 /* CoreGraphics.framework */; };
 		5839DFFD18BAF33500F1BD13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5839DFFC18BAF33500F1BD13 /* UIKit.framework */; };
@@ -21,6 +24,15 @@
 		5839E01A18BAF33700F1BD13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5839DFFC18BAF33500F1BD13 /* UIKit.framework */; };
 		5839E02218BAF33700F1BD13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5839E02018BAF33700F1BD13 /* InfoPlist.strings */; };
 		5839E02418BAF33700F1BD13 /* DrumTappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839E02318BAF33700F1BD13 /* DrumTappingTests.m */; };
+		5839E03118BB142600F1BD13 /* TappingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839E03018BB142600F1BD13 /* TappingViewController.m */; };
+		5839E03418BC1DE700F1BD13 /* TappingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839E03318BC1DE600F1BD13 /* TappingView.m */; };
+		5839E03718BD5BA100F1BD13 /* cowbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5839E03518BD5BA100F1BD13 /* cowbell.wav */; };
+		5839E03818BD5BA100F1BD13 /* wood.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5839E03618BD5BA100F1BD13 /* wood.wav */; };
+		5839E03B18BD63E800F1BD13 /* LJSoundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839E03A18BD63E800F1BD13 /* LJSoundModel.m */; };
+		5839E03E18BD9E0F00F1BD13 /* LJConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839E03D18BD9E0F00F1BD13 /* LJConfig.m */; };
+		5839E04018BDA03100F1BD13 /* test3.json in Resources */ = {isa = PBXBuildFile; fileRef = 5839E03F18BDA03100F1BD13 /* test3.json */; };
+		5839E04718C0597F00F1BD13 /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839E04618C0597F00F1BD13 /* TimeModel.m */; };
+		5839E04D18C439B500F1BD13 /* TapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839E04C18C439B500F1BD13 /* TapController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5839512C18C69F4D00B5F477 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		5839512D18C69F4D00B5F477 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		5839512E18C69F4D00B5F477 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		5839512F18C69F4D00B5F477 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		5839513018C69F4D00B5F477 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		5839513118C69F4D00B5F477 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
 		5839DFF518BAF33500F1BD13 /* DrumTapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrumTapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5839DFF818BAF33500F1BD13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5839DFFA18BAF33500F1BD13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +71,21 @@
 		5839E01F18BAF33700F1BD13 /* DrumTappingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrumTappingTests-Info.plist"; sourceTree = "<group>"; };
 		5839E02118BAF33700F1BD13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5839E02318BAF33700F1BD13 /* DrumTappingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrumTappingTests.m; sourceTree = "<group>"; };
+		5839E02F18BB142600F1BD13 /* TappingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TappingViewController.h; sourceTree = "<group>"; };
+		5839E03018BB142600F1BD13 /* TappingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TappingViewController.m; sourceTree = "<group>"; };
+		5839E03218BC1DE600F1BD13 /* TappingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TappingView.h; sourceTree = "<group>"; };
+		5839E03318BC1DE600F1BD13 /* TappingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TappingView.m; sourceTree = "<group>"; };
+		5839E03518BD5BA100F1BD13 /* cowbell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cowbell.wav; sourceTree = "<group>"; };
+		5839E03618BD5BA100F1BD13 /* wood.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wood.wav; sourceTree = "<group>"; };
+		5839E03918BD63E800F1BD13 /* LJSoundModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJSoundModel.h; sourceTree = "<group>"; };
+		5839E03A18BD63E800F1BD13 /* LJSoundModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJSoundModel.m; sourceTree = "<group>"; };
+		5839E03C18BD9E0F00F1BD13 /* LJConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJConfig.h; sourceTree = "<group>"; };
+		5839E03D18BD9E0F00F1BD13 /* LJConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJConfig.m; sourceTree = "<group>"; };
+		5839E03F18BDA03100F1BD13 /* test3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test3.json; sourceTree = "<group>"; };
+		5839E04518C0597F00F1BD13 /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
+		5839E04618C0597F00F1BD13 /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
+		5839E04B18C439B500F1BD13 /* TapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapController.h; sourceTree = "<group>"; };
+		5839E04C18C439B500F1BD13 /* TapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +112,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5839512B18C69EDF00B5F477 /* log */ = {
+			isa = PBXGroup;
+			children = (
+				5839512C18C69F4D00B5F477 /* DDFileLogger.h */,
+				5839512D18C69F4D00B5F477 /* DDFileLogger.m */,
+				5839512E18C69F4D00B5F477 /* DDLog.h */,
+				5839512F18C69F4D00B5F477 /* DDLog.m */,
+				5839513018C69F4D00B5F477 /* DDTTYLogger.h */,
+				5839513118C69F4D00B5F477 /* DDTTYLogger.m */,
+			);
+			name = log;
+			sourceTree = "<group>";
+		};
 		5839DFEC18BAF33500F1BD13 = {
 			isa = PBXGroup;
 			children = (
@@ -112,9 +158,15 @@
 		5839DFFE18BAF33500F1BD13 /* DrumTapping */ = {
 			isa = PBXGroup;
 			children = (
+				5839512B18C69EDF00B5F477 /* log */,
+				5839E04118BEA33800F1BD13 /* models */,
 				5839E00718BAF33600F1BD13 /* LJAppDelegate.h */,
 				5839E00818BAF33600F1BD13 /* LJAppDelegate.m */,
+				5839E03218BC1DE600F1BD13 /* TappingView.h */,
+				5839E03318BC1DE600F1BD13 /* TappingView.m */,
 				5839E00A18BAF33600F1BD13 /* Main.storyboard */,
+				5839E02F18BB142600F1BD13 /* TappingViewController.h */,
+				5839E03018BB142600F1BD13 /* TappingViewController.m */,
 				5839E00D18BAF33600F1BD13 /* LJViewController.h */,
 				5839E00E18BAF33600F1BD13 /* LJViewController.m */,
 				5839E01018BAF33600F1BD13 /* Images.xcassets */,
@@ -126,6 +178,9 @@
 		5839DFFF18BAF33600F1BD13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5839E03F18BDA03100F1BD13 /* test3.json */,
+				5839E03518BD5BA100F1BD13 /* cowbell.wav */,
+				5839E03618BD5BA100F1BD13 /* wood.wav */,
 				5839E00018BAF33600F1BD13 /* DrumTapping-Info.plist */,
 				5839E00118BAF33600F1BD13 /* InfoPlist.strings */,
 				5839E00418BAF33600F1BD13 /* main.m */,
@@ -150,6 +205,21 @@
 				5839E02018BAF33700F1BD13 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5839E04118BEA33800F1BD13 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5839E03918BD63E800F1BD13 /* LJSoundModel.h */,
+				5839E03A18BD63E800F1BD13 /* LJSoundModel.m */,
+				5839E03C18BD9E0F00F1BD13 /* LJConfig.h */,
+				5839E03D18BD9E0F00F1BD13 /* LJConfig.m */,
+				5839E04518C0597F00F1BD13 /* TimeModel.h */,
+				5839E04618C0597F00F1BD13 /* TimeModel.m */,
+				5839E04B18C439B500F1BD13 /* TapController.h */,
+				5839E04C18C439B500F1BD13 /* TapController.m */,
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +299,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5839E03818BD5BA100F1BD13 /* wood.wav in Resources */,
+				5839E04018BDA03100F1BD13 /* test3.json in Resources */,
 				5839E01118BAF33600F1BD13 /* Images.xcassets in Resources */,
 				5839E00318BAF33600F1BD13 /* InfoPlist.strings in Resources */,
 				5839E00C18BAF33600F1BD13 /* Main.storyboard in Resources */,
+				5839E03718BD5BA100F1BD13 /* cowbell.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +323,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5839E04D18C439B500F1BD13 /* TapController.m in Sources */,
+				5839E03118BB142600F1BD13 /* TappingViewController.m in Sources */,
+				5839E03E18BD9E0F00F1BD13 /* LJConfig.m in Sources */,
+				5839E04718C0597F00F1BD13 /* TimeModel.m in Sources */,
 				5839E00918BAF33600F1BD13 /* LJAppDelegate.m in Sources */,
+				5839513318C69F4E00B5F477 /* DDLog.m in Sources */,
 				5839E00518BAF33600F1BD13 /* main.m in Sources */,
 				5839E00F18BAF33600F1BD13 /* LJViewController.m in Sources */,
+				5839E03418BC1DE700F1BD13 /* TappingView.m in Sources */,
+				5839513418C69F4E00B5F477 /* DDTTYLogger.m in Sources */,
+				5839E03B18BD63E800F1BD13 /* LJSoundModel.m in Sources */,
+				5839513218C69F4E00B5F477 /* DDFileLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +545,7 @@
 				5839E02918BAF33700F1BD13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5839E02A18BAF33700F1BD13 /* Build configuration list for PBXNativeTarget "DrumTappingTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +554,7 @@
 				5839E02C18BAF33700F1BD13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
